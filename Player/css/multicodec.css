@@ -1,0 +1,20 @@
+#stats-table td {
+    padding: 5px;
+}
+
+#stats-table tr > td:first-child {
+    padding-right: 1rem;
+}
+
+.browser-icon {
+    font-size: 1.5em;
+}
+
+.codec-image {
+    font-size: 1.5em;
+}
+
+body:not(.fullscreen) :not(.no-frame).notebook-frame::before {
+    top: 0;
+    left: 0;
+}
